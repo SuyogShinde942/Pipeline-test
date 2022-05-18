@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test-one') {
             steps {
-		echo "Test one begin ..."
+		echo "First test begin ..."
                 sh 'ls -la' 
             }
         }
